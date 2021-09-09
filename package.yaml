@@ -7,7 +7,7 @@ author: James M.C. Haver II
 maintainer: mchaver@gmail.com
 copyright: 2017 Plow Technologies
 license: BSD3
-github: plow-technologies/yesod-routes-metrics
+github: tylerjl/yesod-routes-metrics
 
 library:
   source-dirs: src

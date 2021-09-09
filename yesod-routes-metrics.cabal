@@ -9,8 +9,8 @@ version:        0.4.0.0
 synopsis:       Parser Yesod routes file and compute route access metrics for Yesod
 description:    README.md
 category:       Web
-homepage:       https://github.com/plow-technologies/yesod-routes-metrics#readme
-bug-reports:    https://github.com/plow-technologies/yesod-routes-metrics/issues
+homepage:       https://github.com/tylerjl/yesod-routes-metrics#readme
+bug-reports:    https://github.com/tylerjl/yesod-routes-metrics/issues
 author:         James M.C. Haver II
 maintainer:     mchaver@gmail.com
 copyright:      2017 Plow Technologies
@@ -20,7 +20,7 @@ build-type:     Simple
 
 source-repository head
   type: git
-  location: https://github.com/plow-technologies/yesod-routes-metrics
+  location: https://github.com/tylerjl/yesod-routes-metrics
 
 library
   exposed-modules:
