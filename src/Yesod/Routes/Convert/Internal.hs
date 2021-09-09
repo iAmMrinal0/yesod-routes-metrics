@@ -53,7 +53,8 @@ convertMethodAndPathToResourceTree reqMethod p (r:rs) =
 convertMethodAndPathToResourceTree _ _ _ = Nothing
 
 methodInResource :: String -> ResourceTree a -> Bool
-methodInResource reqMethod (ResourceLeaf rl) = reqMethod `elem` (methodsMethods . resourceDispatch $ rl)
+methodInResource reqMethod (ResourceLeaf (Resource{resourceDispatch=Methods{methodsMethods}}) )
+  = reqMethod `elem` methodsMethods
 methodInResource _ _ = False
   
 comparePathToResourceTree :: [String] -> ResourceTree a -> Bool
