@@ -1,9 +1,10 @@
+{-# LANGUAGE NamedFieldPuns #-}
+
 module Yesod.Routes.Convert.Internal where 
 
 import           Data.Char (toLower)
 import qualified Data.ByteString.Char8 as BS
 import qualified Data.Text as T
-import           Data.List (concat)
 import           Network.Wai
 import           Yesod.Routes.TH.Types
 

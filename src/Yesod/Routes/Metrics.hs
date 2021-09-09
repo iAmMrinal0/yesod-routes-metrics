@@ -24,8 +24,6 @@ import qualified Data.ByteString.Char8 as C
 import           Data.Char (isUpper)
 import           Data.Int (Int64)
 import           Data.IORef (IORef, atomicModifyIORef, newIORef, readIORef, writeIORef)
-import           Data.Maybe (maybe)
-import           Data.Monoid     ((<>))
 import qualified Data.Map.Strict as Map
 import           Data.Text       (Text)
 import qualified Data.Text       as T
