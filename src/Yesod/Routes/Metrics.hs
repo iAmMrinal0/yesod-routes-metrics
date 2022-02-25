@@ -12,6 +12,7 @@ module Yesod.Routes.Metrics (
  , registerYesodMetricsMkMetricsFunction
  , registerYesodMetrics
  , registerYesodMetricsWithResourceTrees
+ , metricsWithResourceTrees
  , metrics
  ) where
 
