@@ -31,7 +31,6 @@ library:
   - wai
   ghc-options:
   - -Wall
-  - -Werror
 
 tests:
   yesod-routes-metrics-test:
